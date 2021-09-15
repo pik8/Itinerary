@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import BrandNavigation from "./components/BrandNavigation.js";
+import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import Menu from "./templates/Menu/Menu.js";
+import Madeira from "./templates/Madeira.js";
+import MenuButton from "./components/MenuButton.js";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Link to="/">
+          <BrandNavigation />
+        </Link>
+        <Link to="/menu">
+          <MenuButton />
+        </Link>
+        <Switch>
+          <Route exact path="/menu" component={Menu}></Route>
+          <Route exact path="/madeira" component={Madeira}></Route>
+          <Route exact path="/frankfurt" component={Madeira}></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
-
-export default App;

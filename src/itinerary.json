@@ -1,0 +1,168 @@
+{
+  "day1": [
+    {
+      "id": "hotel",
+      "name": "Castanheiro Boutique Hotel",
+      "coordinates": [-16.910090771635417, 32.64980805857771],
+      "color": "#2b2937",
+      "commute": "walking",
+      "notes": "Gonçalo's treat"
+    },
+    {
+      "id": "teleferico-funchal",
+      "name": "Teleférico da Madeira (Subir ao monte)",
+      "coordinates": [-16.90242667269853, 32.64716414401082],
+      "color": "#352f42",
+      "commute": "walking",
+      "notes": "Preço: 11€ ou 31.40€ com o teleférico do Jardim Botânico"
+    },
+    {
+      "id": "jardim-tropical",
+      "name": "Jardim Tropical do Monte Palace",
+      "coordinates": [-16.900600456084433, 32.675602072410946],
+      "color": "#41344c",
+      "commute": "walking"
+    },
+    {
+      "id": "santuario",
+      "name": "Santuário de Nossa Senhora do Monte",
+      "coordinates": [-16.902530599014405, 32.67607587608104],
+      "color": "#4f3955",
+      "commute": "walking"
+    },
+    {
+      "id": "miradouro-pico",
+      "name": "Miradouro do Pico",
+      "coordinates": [-16.90560709017923, 32.67530411628867],
+      "color": "#5d3e5d",
+      "commute": "walking"
+    },
+    {
+      "id": "carreiros",
+      "name": "Carreiros do Monte",
+      "coordinates": [-16.90216931462549, 32.67544112399819],
+      "color": "#6d4263",
+      "commute": "driving"
+    },
+    {
+      "id": "avenida",
+      "name": "Avenida do Mar",
+      "coordinates": [-16.909437293521115, 32.64678780381909],
+      "color": "#7e4668",
+      "commute": "walking"
+    },
+    {
+      "id": "cr7",
+      "name": "CR7 Museu",
+      "coordinates": [-16.91382276057391, 32.644174175383846],
+      "color": "#8e496c",
+      "commute": "walking"
+    },
+    {
+      "id": "sta-catarina-parque",
+      "name": "Santa Catarina Park",
+      "coordinates": [-16.91454113721107, 32.64424885252138],
+      "color": "#9f4d6d",
+      "commute": "walking"
+    },
+    {
+      "id": "sta-catarina-capela",
+      "name": "Capela de Santa Catarina",
+      "coordinates": [-16.91334701573813, 32.64588465077272],
+      "color": "#af526d",
+      "commute": "walking"
+    },
+    {
+      "id": "jardim-municipal",
+      "name": "Jardim Municipal do Funchal",
+      "coordinates": [-16.911492990154493, 32.64782330346153],
+      "color": "#bf576c",
+      "commute": "walking"
+    },
+    {
+      "id": "palacio-s-lourenco",
+      "name": "Palácio de São Lourenço",
+      "coordinates": [-16.909802248170067, 32.64725171439347],
+      "color": "#cd5d69",
+      "commute": "walking"
+    },
+    {
+      "id": "catedral-funchal",
+      "name": "Sé Catedral do Funchal",
+      "coordinates": [-16.90831486321324, 32.64824427808336],
+      "color": "#db6565",
+      "commute": "walking"
+    },
+    {
+      "id": "bolo-caco",
+      "name": "Casa do Bolo do Caco",
+      "coordinates": [-16.90588287927411, 32.64920442426878],
+      "color": "#e66e5f",
+      "commute": "walking"
+    },
+    {
+      "id": "estatua-descobridor",
+      "name": "Estátua João Gonçalves Zarco (Descobridor da Madeira)",
+      "coordinates": [-16.909702052459227, 32.64788961308444],
+      "color": "#f07859",
+      "commute": "walking"
+    },
+    {
+      "id": "blandy-wine",
+      "name": "Blandy’s Wine Lodge",
+      "coordinates": [-16.910629416272847, 32.64789057291663],
+      "color": "#f88352",
+      "commute": "walking"
+    },
+    {
+      "id": "mercado-lavradores",
+      "name": "Mercado dos Lavradores",
+      "coordinates": [-16.90414023611996, 32.64854026279894],
+      "color": "#fe904a",
+      "commute": "walking"
+    },
+    {
+      "id": "capela-corpo-santo",
+      "name": "Capela do Corpo Santo",
+      "coordinates": [-16.900000494699793, 32.64760880858054],
+      "color": "#ff9d42",
+      "commute": "walking"
+    },
+    {
+      "id": "fabrica-chapeu",
+      "name": "Fábrica de Chapéus",
+      "coordinates": [-16.899584441236136, 32.64765463871349],
+      "color": "#ffac39",
+      "commute": "walking"
+    },
+    {
+      "id": "forte-s-tiago",
+      "name": "Forte de São Tiago",
+      "coordinates": [-16.898606131446602, 32.64665087000457],
+      "color": "#ffba31",
+      "commute": "walking"
+    },
+    {
+      "id": "igreja-sta-maria-maior",
+      "name": "Igreja Matriz de Santa Maria Maior",
+      "coordinates": [-16.897974850705584, 32.646990344447495],
+      "color": "#ffca29",
+      "commute": "walking"
+    },
+    {
+      "id": "miradouro-socorro",
+      "name": "Miradouro do Socorro",
+      "coordinates": [-16.89773394530409, 32.64684836143023],
+      "color": "#fad925",
+      "commute": "walking"
+    },
+    {
+      "id": "praia-barreirinha",
+      "name": "Praia da Barreirinha",
+      "coordinates": [-16.8974876001316, 32.64683374494226],
+      "color": "#f2e926",
+      "commute": "walking"
+    }
+  ],
+  "day2": []
+}

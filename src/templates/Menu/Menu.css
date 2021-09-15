@@ -1,0 +1,23 @@
+#menu-title {
+  font-family: monospace;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.list-wrapper {
+  font-family: monospace;
+  font-size: 20px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.list-item {
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  background-color: #dae848;
+  margin-bottom: 30px;
+  padding: 25px 10px 25px 10px;
+}
