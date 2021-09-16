@@ -1,17 +1,17 @@
 import React, { useRef, useEffect, useState } from "react";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
-import itinerary from "./../itinerary.json";
+import itinerary from "./../utilities/itinerary.json";
+import { getStartLocationCoordinates, getNextRoutePoints, getNextLocationCoordinates } from "./../utilities/planner.js";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_API_KEY;
 
 export default function Day() {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const startLng = itinerary.day1[0].coordinates[0];
-  const startLat = itinerary.day1[0].coordinates[1];
   const zoom = 14;
+  const startCoordinates = getStartLocationCoordinates("day1");
 
-  let [currentPoint, setCurrentPoint] = useState(2);
+  let [currentPointIndex, setCurrentPointIndex] = useState(2);
 
   useEffect(() => {
     if (map.current) return;
@@ -19,24 +19,17 @@ export default function Day() {
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/streets-v11",
-      center: [startLng, startLat],
+      center: startCoordinates,
       zoom: zoom,
     });
   });
 
   // Directions request
   async function getRoute() {
-    const startPoint = `${itinerary.day1[currentPoint - 2].coordinates[0]},${
-      itinerary.day1[currentPoint - 2].coordinates[1]
-    }`;
-    const endPoint = `${itinerary.day1[currentPoint - 1].coordinates[0]},${
-      itinerary.day1[currentPoint - 1].coordinates[1]
-    }`;
-
     const query = await fetch(
       `https://api.mapbox.com/directions/v5/mapbox/${
-        itinerary.day1[currentPoint - 2].commute
-      }/${startPoint};${endPoint}?steps=true&geometries=geojson&access_token=${
+        itinerary.day1[currentPointIndex - 2].commute
+      }/${getNextRoutePoints("day1", currentPointIndex)}?steps=true&geometries=geojson&access_token=${
         mapboxgl.accessToken
       }`,
       { method: "GET" }
@@ -60,7 +53,7 @@ export default function Day() {
       map.current.getSource("route").setData(geojson);
 
       map.current.flyTo({
-        center: itinerary.day1[currentPoint - 2].coordinates,
+        center: getNextLocationCoordinates("day1", currentPointIndex),
         zoom: 16,
       });
     } else {
@@ -138,9 +131,9 @@ export default function Day() {
   });
 
   function getNextDirection() {
-    setCurrentPoint(currentPoint++);
+    setCurrentPointIndex(currentPointIndex++);
 
-    if (itinerary.day1[currentPoint - 2]) {
+    if (itinerary.day1[currentPointIndex - 1]) {
       getRoute();
     } else {
       alert("Congrats! You've reached the end of the day");
@@ -152,15 +145,17 @@ export default function Day() {
       <div ref={mapContainer} className="map-container" />
       <div className="instructions-container">
         <div id="destination">
-          <b>{itinerary.day1[currentPoint - 1].name}</b>
+          At: <b>{itinerary.day1[currentPointIndex-1].name}</b>
+          <br />
+          To: <b>{itinerary.day1[currentPointIndex].name}</b>
         </div>
         <div id="instructions" />
         <button className="next" onClick={getNextDirection}>
           Next &#10140;
         </button>
-        ({currentPoint})
-        {itinerary.day1[currentPoint - 1].notes && (
-          <div id="notes">Notes: {itinerary.day1[currentPoint - 1].notes}</div>
+        ({currentPointIndex})
+        {itinerary.day1[currentPointIndex - 1].notes && (
+          <div id="notes">Notes: {itinerary.day1[currentPointIndex - 1].notes}</div>
         )}
       </div>
     </div>

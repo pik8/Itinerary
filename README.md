@@ -10,13 +10,13 @@ Scheme with: http://colormind.io/
 ToDo:
 
 - Add remaining locations
-- Add landing page
 - Add array for pin color instead of having them on the json
 - Add dynamic routing
 - Add tailwind
 - Organize files
 - Organize css
 - Add scss
+- Improve styling!
 
 - Make app work offline
 
@@ -24,3 +24,4 @@ Done:
 
 - Add line directions
 - Add homepage (Pick your trip)
+- Add landing page

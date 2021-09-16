@@ -161,7 +161,151 @@
       "name": "Praia da Barreirinha",
       "coordinates": [-16.8974876001316, 32.64683374494226],
       "color": "#f2e926",
-      "commute": "walking"
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "miradouro-torre",
+      "name": "Camara de Lobos - Miradouro da Torre",
+      "coordinates": [-16.973598036502867, 32.65201348544847],
+      "color": "#f2e926",
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "praia-vigario",
+      "name": "Praia do Vigário",
+      "coordinates": [-16.977281834981977, 32.647434138709926],
+      "color": "#f2e926",
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "teleferico-rancho",
+      "name": "Teleférico do Rancho",
+      "coordinates": [-16.992580923609065, 32.65254380358365],
+      "color": "#f2e926",
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "cabo-girao",
+      "name": "Cabo Girão",
+      "coordinates": [-17.004551060224873, 32.65666200904696],
+      "color": "#f2e926",
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "teleferico-faja-padres",
+      "name": "Teleférico Fajã dos Padres",
+      "coordinates": [-17.021430605592318, 32.65663776760287],
+      "color": "#f2e926",
+      "commute": "driving",
+      "notes": "Deve haver um restaurante por perto bom"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "calhau-lapa",
+      "name": "Calhau da Lapa",
+      "coordinates": [-17.033910622070614, 32.66366822849751],
+      "color": "#f2e926",
+      "commute": "driving",
+      "notes": "A água! Deve haver uma descida por perto. Deve ser dificil. Perguntar a alguém onde apanhar um barco que passa por ali. (Ribeira Brava?)"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "ribeira-brava-igreja",
+      "name": "Igreja da Ribeira Brava",
+      "coordinates": [-17.064552946937898, 32.671261194952514],
+      "color": "#f2e926",
+      "commute": "driving",
+      "notes": "Estacionar algures para ir a pé até à praia"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "ribeira-brava-praia",
+      "name": "Praia da Ribeira Brava",
+      "coordinates": [-17.066194346737756, 32.67098006182492],
+      "color": "#f2e926",
+      "commute": "driving",
+      "notes": "Ver se conseguimos apanhar um barco até Calhau da Lapa (vale a pena)"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "cais-ponta-do-sol",
+      "name": "Cais da Ponta do Sol",
+      "coordinates": [-17.104040785324223, 32.67815050205711],
+      "color": "#f2e926",
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "cascata-dos-anjos",
+      "name": "Cascata dos Anjos",
+      "coordinates": [-17.113989067030086, 32.686720057597874],
+      "color": "#f2e926",
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "madalena-do-mar",
+      "name": "Madalena do Mar",
+      "coordinates": [-17.137527574671136, 32.702661731606455],
+      "color": "#f2e926",
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "praia-calheta",
+      "name": "Praia da Calheta",
+      "coordinates": [-17.17556595480119, 32.71986146456428],
+      "color": "#f2e926",
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "jardim-do-mar",
+      "name": "Jardim do Mar",
+      "coordinates": [-17.209487853044628, 32.73666495246915],
+      "color": "#f2e926",
+      "commute": "driving"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "miradouro-precipicio",
+      "name": "Miradouro do Precipício",
+      "coordinates": [-17.234483623940594, 32.770368838077566],
+      "color": "#f2e926",
+      "commute": "driving",
+      "notes": "Into é Paul do Mar. O Maktub Pub é muito bom. Ir picar algo."
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "farol-ponta-pargo",
+      "name": "Farol da Ponta do Pargo",
+      "coordinates": [-17.263015052126388, 32.814005631454044],
+      "color": "#f2e926",
+      "commute": "driving",
+      "notes": "Good Sunset"
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "miradouro-do-fio",
+      "name": "Miradouro do Fio",
+      "coordinates": [-17.25653749747203, 32.80962667006522],
+      "color": "#f2e926",
+      "commute": "driving",
+      "notes": "Ir ao café O Fio. Deve se bom."
+    },
+    {
+      "_comment": "day 2 starts here",
+      "id": "miradouro-garganta-funda",
+      "name": "Miradouro da Garganta Funda",
+      "coordinates": [-17.242237338123136, 32.81913747290139],
+      "color": "#f2e926",
+      "commute": "driving",
+      "notes": "Deixar o carro aqui ou nalgum sitio seguro e andar até ao Miradouro."
     }
   ],
   "day2": []
